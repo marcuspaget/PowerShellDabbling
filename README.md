@@ -9,7 +9,7 @@ $double_quoted_string = "a string – $x"
 Write-Host $single_quote_string
 Write-Host $double_quoted_string
 
-# can enforce with [string]
+' can enforce with [string]
 
 ## Integers
 [int]$int_one = 1
@@ -42,7 +42,7 @@ Write-Host 'a equals 1'
 Write-Host 'a is not equal to 1'
 }
 
-# also possible to elseif
+' also possible to elseif
 
 } elseif ($a -eq 3) {
 
